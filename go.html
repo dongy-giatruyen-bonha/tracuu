@@ -8,11 +8,11 @@
     const maThuoc = params.get("maThuoc");
 
     if (maThuoc) {
-      const url = "https://script.google.com/macros/s/AKfycbxFe9znBvXijl6slAFOkwUBzrt5_sc1UjtREplLGyllmZXGoVcIKK8L6j7f4R-0B0RC/exec?maThuoc=" + encodeURIComponent(maThuoc);
+      const url = "https://script.google.com/macros/s/AKfycbwBKfzIb0uYWIR1euhqurv6q5UpLiz4tM0fOeyeuHgwbYFjpK7btRy2xNDu1jxGsX8E/exec?maThuoc=" + encodeURIComponent(maThuoc);
       window.location.href = url;
     } else {
       // Chuyển hướng mặc định (không tham số)
-      window.location.href = "https://script.google.com/macros/s/AKfycbxFe9znBvXijl6slAFOkwUBzrt5_sc1UjtREplLGyllmZXGoVcIKK8L6j7f4R-0B0RC/exec";
+      window.location.href = "https://script.google.com/macros/s/AKfycbwBKfzIb0uYWIR1euhqurv6q5UpLiz4tM0fOeyeuHgwbYFjpK7btRy2xNDu1jxGsX8E/exec";
 
       // Hoặc nếu muốn hiện thông báo thay vì chuyển hướng, thay dòng trên bằng:
       // document.body.innerHTML = "<h2>Vui lòng cung cấp tham số <code>maThuoc</code> trên URL.</h2>";
